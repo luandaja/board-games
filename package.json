@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "nx",
     "start": "nx run board-games:serve",
     "build": "nx run board-games:build"
   },
