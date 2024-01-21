@@ -4,9 +4,10 @@ import { RouterModule } from '@angular/router';
 @Component({
   standalone: true,
   imports: [RouterModule],
-  selector: 'lbg-root',
-  template: `<h1>Welcome board-games</h1>
-    <router-outlet></router-outlet>`,
+  selector: 'app-root',
+  template: `ABC <router-outlet></router-outlet>`,
   styles: ``,
 })
-export class AppComponent {}
+export class AppComponent {
+  title = 'board-games';
+}
